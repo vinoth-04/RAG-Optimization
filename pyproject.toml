@@ -5,12 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "chromadb>=1.5.5",
     "faiss-cpu>=1.13.2",
     "langchain>=1.2.13",
     "langchain-community>=0.4.1",
     "langchain-core>=1.2.22",
     "langchain-huggingface>=1.2.1",
+    "langchain-openai>=1.1.12",
     "pymupdf>=1.27.2.2",
     "pypdf>=6.9.2",
     "sentence-transformers>=5.3.0",
